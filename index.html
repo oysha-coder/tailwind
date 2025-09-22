@@ -7,6 +7,9 @@
     <title>Tailwind css</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -26,12 +29,23 @@
         </nav>
     </header>
     <section class="hero w-full h-[786px] flex px-[167px] py-[105px]">
-        <section class="section_text_hero w-[571px] h-[444px] ">
-            <h2 class="section_text_hero_h2">Explore and
+        <section class="section_text_hero w-[571px] h-[444px] 
+">
+            <h2 class="section_text_hero_h2 font-bold text-[64px] mb-[74px] ">Explore and
                 Travel</h2>
-                <div class="section_hero_text_p_hr">
-                    <p class="section_text_p">Holiday finder</p>
-                </div>
+            <div class="section_hero_text_p_hr">
+                <p class="section_text_p inter font-semibold text-[22px] mb-[21px]">Holiday finder</p>
+                <hr class="w-[32px] h-[2px] mb-[30px]">
+                <button class="w-[220px] h-[52px] border mr-[30px] rounded-[6px]">
+                    <a href="/">Location</a>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </button>
+                <button class="w-[220px] h-[52px] border rounded-[6px] border-[grey]">
+                    <a class="inter font-normal
+" href="/">Activity</a>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </button>
+            </div>
         </section>
         <section class="section_hero_img">
             <img src="./images/image2.png" alt="image2">
